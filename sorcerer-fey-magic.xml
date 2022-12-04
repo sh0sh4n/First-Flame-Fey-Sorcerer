@@ -1,376 +1,139 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<elements>
+	<info>
+		<name>Fey Magic</name>
+	<update version="0.0.1">
+		<file name="sorcerer-fey-magic.xml" url=""/>
+	</update>
+	</info>
 
-<office:document xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:rpt="http://openoffice.org/2005/report" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:officeooo="http://openoffice.org/2009/office" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:css3t="http://www.w3.org/TR/css3-text/" office:version="1.2" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="7" meta:paragraph-count="139" meta:word-count="1171" meta:character-count="10157" meta:non-whitespace-character-count="8644"/><meta:generator>LibreOffice/6.1.5.2$Linux_X86_64 LibreOffice_project/10$Build-2</meta:generator></office:meta>
- <office:settings>
-  <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">0</config:config-item>
-   <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
-  </config:config-item-set>
-  <config:config-item-set config:name="ooo:configuration-settings">
-   <config:config-item config:name="PrintPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintFaxName" config:type="string"/>
-   <config:config-item config:name="PrintSingleJobs" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintProspectRTL" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintProspect" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintReversed" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTextPlaceholder" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintTables" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintPageBackground" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintLeftPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="DoNotJustifyLinesWithManualBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AlignTabStopPosition" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IgnoreFirstLineIndentInNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterSetup" config:type="base64Binary"/>
-   <config:config-item config:name="CollapseEmptyCellPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="RedlineProtectionKey" config:type="base64Binary"/>
-   <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseOldNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddExternalLeading" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="TreatSingleColumnBreakAsPageBreak" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="IsLabelDocument" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="RsidRoot" config:type="int">972360</config:config-item>
-   <config:config-item config:name="ConsiderTextWrapOnObjPos" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TableRowKeep" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabsRelativeToIndent" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UpdateFromTemplate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="SaveVersionOnClose" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UseFormerTextWrapping" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ChartAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacingAtStart" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AllowPrintJobCancel" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaTableSpacing" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintDrawings" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddParaSpacingToTableCells" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UseFormerLineSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="OutlineLevelYieldsNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LinkUpdateMode" config:type="short">1</config:config-item>
-   <config:config-item config:name="ApplyUserData" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="StylesNoDefault" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbeddedDatabaseName" config:type="string"/>
-   <config:config-item config:name="FloattableNomargins" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="BackgroundParaOverDrawings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterName" config:type="string"/>
-   <config:config-item config:name="UseFormerObjectPositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabOverMargin" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SaveGlobalDocumentLinks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseDataSource" config:type="string"/>
-   <config:config-item config:name="IsKernAsianPunctuation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommandType" config:type="int">0</config:config-item>
-   <config:config-item config:name="CharacterCompressionType" config:type="short">0</config:config-item>
-   <config:config-item config:name="SmallCapsPercentage66" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="CurrentDatabaseCommand" config:type="string"/>
-   <config:config-item config:name="DoNotResetParaAttrsForNumFont" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="FieldAutoUpdate" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="IgnoreTabsAndBlanksForLineCalculation" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="LoadReadonly" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DoNotCaptureDrawObjsOnPage" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClipAsCharacterAnchoredWriterFlyFrames" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintBlackFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="DisableOffPagePositioning" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SurroundTextWrapSmall" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintRightPages" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">972360</config:config-item>
-   <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterPaperFromSetup" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrinterIndependentLayout" config:type="string">high-resolution</config:config-item>
-   <config:config-item config:name="TabOverflow" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintGraphics" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PropLineSpacingShrinksFirstLine" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="UnbreakableNumberings" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="AddFrameOffsets" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ClippedPictures" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmbedSystemFonts" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ApplyParagraphMarkFormatToNumbering" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="SubtractFlysAnchoredAtFlys" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="EmptyDbFieldHidesPara" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="AddVerticalFrameOffsets" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="ProtectForm" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintEmptyPages" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintControls" config:type="boolean">true</config:config-item>
-   <config:config-item config:name="PrintHiddenText" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="PrintAnnotationMode" config:type="short">0</config:config-item>
-  </config:config-item-set>
- </office:settings>
- <office:scripts>
-  <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
-  </office:script>
- </office:scripts>
- <office:font-face-decls>
-  <style:font-face style:name="Noto Sans Devanagari1" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="swiss"/>
-  <style:font-face style:name="Liberation Mono" svg:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed"/>
-  <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
-  <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
-  <style:font-face style:name="DejaVu Sans" svg:font-family="&apos;DejaVu Sans&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
-  <style:font-face style:name="Noto Sans Devanagari" svg:font-family="&apos;Noto Sans Devanagari&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
- </office:font-face-decls>
- <office:styles>
-  <style:default-style style:family="graphic">
-   <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
-    <style:tab-stops/>
-   </style:paragraph-properties>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="DejaVu Sans" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
-  </style:default-style>
-  <style:default-style style:family="paragraph">
-   <style:paragraph-properties fo:hyphenation-ladder-count="no-limit" style:text-autospace="ideograph-alpha" style:punctuation-wrap="hanging" style:line-break="strict" style:tab-stop-distance="0.4925in" style:writing-mode="page"/>
-   <style:text-properties style:use-window-font-color="true" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:font-name-asian="DejaVu Sans" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Noto Sans Devanagari" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" fo:hyphenate="false" fo:hyphenation-remain-char-count="2" fo:hyphenation-push-char-count="2"/>
-  </style:default-style>
-  <style:default-style style:family="table">
-   <style:table-properties table:border-model="collapsing"/>
-  </style:default-style>
-  <style:default-style style:family="table-row">
-   <style:table-row-properties fo:keep-together="auto"/>
-  </style:default-style>
-  <style:style style:name="Standard" style:family="paragraph" style:class="text"/>
-  <style:style style:name="Heading" style:family="paragraph" style:parent-style-name="Standard" style:next-style-name="Text_20_body" style:class="text">
-   <style:paragraph-properties fo:margin-top="0.1665in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" fo:keep-with-next="always"/>
-   <style:text-properties style:font-name="Liberation Sans" fo:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable" fo:font-size="14pt" style:font-name-asian="DejaVu Sans" style:font-family-asian="&apos;DejaVu Sans&apos;" style:font-family-generic-asian="system" style:font-pitch-asian="variable" style:font-size-asian="14pt" style:font-name-complex="Noto Sans Devanagari" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="system" style:font-pitch-complex="variable" style:font-size-complex="14pt"/>
-  </style:style>
-  <style:style style:name="Text_20_body" style:display-name="Text body" style:family="paragraph" style:parent-style-name="Standard" style:class="text">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0.0972in" loext:contextual-spacing="false" fo:line-height="115%"/>
-  </style:style>
-  <style:style style:name="List" style:family="paragraph" style:parent-style-name="Text_20_body" style:class="list">
-   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
-  </style:style>
-  <style:style style:name="Caption" style:family="paragraph" style:parent-style-name="Standard" style:class="extra">
-   <style:paragraph-properties fo:margin-top="0.0835in" fo:margin-bottom="0.0835in" loext:contextual-spacing="false" text:number-lines="false" text:line-number="0"/>
-   <style:text-properties fo:font-size="12pt" fo:font-style="italic" style:font-size-asian="12pt" style:font-style-asian="italic" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss" style:font-size-complex="12pt" style:font-style-complex="italic"/>
-  </style:style>
-  <style:style style:name="Index" style:family="paragraph" style:parent-style-name="Standard" style:class="index">
-   <style:paragraph-properties text:number-lines="false" text:line-number="0"/>
-   <style:text-properties style:font-size-asian="12pt" style:font-name-complex="Noto Sans Devanagari1" style:font-family-complex="&apos;Noto Sans Devanagari&apos;" style:font-family-generic-complex="swiss"/>
-  </style:style>
-  <style:style style:name="Preformatted_20_Text" style:display-name="Preformatted Text" style:family="paragraph" style:parent-style-name="Standard" style:class="html">
-   <style:paragraph-properties fo:margin-top="0in" fo:margin-bottom="0in" loext:contextual-spacing="false"/>
-   <style:text-properties style:font-name="Liberation Mono" fo:font-family="&apos;Liberation Mono&apos;" style:font-family-generic="modern" style:font-pitch="fixed" fo:font-size="10pt" style:font-name-asian="Liberation Mono" style:font-family-asian="&apos;Liberation Mono&apos;" style:font-family-generic-asian="modern" style:font-pitch-asian="fixed" style:font-size-asian="10pt" style:font-name-complex="Liberation Mono" style:font-family-complex="&apos;Liberation Mono&apos;" style:font-family-generic-complex="modern" style:font-pitch-complex="fixed" style:font-size-complex="10pt"/>
-  </style:style>
-  <text:outline-style style:name="Outline">
-   <text:outline-level-style text:level="1" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="2" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="3" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="4" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="5" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="6" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="7" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="8" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="9" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-   <text:outline-level-style text:level="10" style:num-format="">
-    <style:list-level-properties text:list-level-position-and-space-mode="label-alignment">
-     <style:list-level-label-alignment text:label-followed-by="listtab"/>
-    </style:list-level-properties>
-   </text:outline-level-style>
-  </text:outline-style>
-  <text:notes-configuration text:note-class="footnote" style:num-format="1" text:start-value="0" text:footnotes-position="page" text:start-numbering-at="document"/>
-  <text:notes-configuration text:note-class="endnote" style:num-format="i" text:start-value="0"/>
-  <text:linenumbering-configuration text:number-lines="false" text:offset="0.1965in" style:num-format="1" text:number-position="left" text:increment="5"/>
- </office:styles>
- <office:automatic-styles>
-  <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.2681in" fo:page-height="11.6929in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:footnote-max-height="0in">
-    <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
-   </style:page-layout-properties>
-   <style:header-style/>
-   <style:footer-style/>
-  </style:page-layout>
- </office:automatic-styles>
- <office:master-styles>
-  <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
- </office:master-styles>
- <office:body>
-  <office:text text:use-soft-page-breaks="true">
-   <text:sequence-decls>
-    <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Text"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
-    <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
-   </text:sequence-decls>
-   <text:p text:style-name="Preformatted_20_Text">&lt;elements&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;info&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;name&gt;Fey Magic&lt;/name&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;update version=&quot;0.0.1&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;file name=&quot;sorcerer-fey-magic.xml&quot; url=&quot;&quot;/&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/update&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/info&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text">&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Fey Magic&quot; type=&quot;Archetype&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEY_MAGIC&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;supports&gt;Sorcerous Origin&lt;/supports&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight. The origin of your powers might be a union between an archfey and a beloved mortal or you might have received a boon for some deed or service. Perhaps you have a dryad in your ancestry, or you might be a scion of a powerful eladrin bloodline.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p class=&quot;indent&quot;&gt;Whatever the source, you have within you a knack for the beguiling magic that is the mark of one who may be destined to become an archfey themselves.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;div element=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;description&gt;Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS&quot; level=&quot;1&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER&quot; level=&quot;1&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR&quot; level=&quot;1&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE&quot; level=&quot;6&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM&quot; level=&quot;14&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY&quot; level=&quot;14&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Archetype Feature&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES&quot; level=&quot;18&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Fey Origin Spells&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;h5&gt;FEY ORIGIN SPELLS&lt;/h5&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;table&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;thead&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;Sorcerer Level&lt;/td&gt;&lt;td&gt;Spells&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/><text:tab/><text:tab/><text:tab/>&lt;/thead&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;command&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;1st&lt;/td&gt;&lt;td&gt;&lt;em&gt;faerie fire&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;3rd&lt;/td&gt;&lt;td&gt;&lt;em&gt;calm emotions&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;5th&lt;/td&gt;&lt;td&gt;&lt;em&gt;hypnotic pattern&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;7th&lt;/td&gt;&lt;td&gt;&lt;em&gt;greater invisibility&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;9th&lt;/td&gt;&lt;td&gt;&lt;em&gt;modify memory&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;tr&gt;&lt;td&gt;11th&lt;/td&gt;&lt;td&gt;&lt;em&gt;mass suggestion&lt;/em&gt;&lt;/td&gt;&lt;/tr&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;/table&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet display=&quot;false&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_COMMAND&quot; level=&quot;1&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_FAERIE_FIRE&quot; level=&quot;1&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_CALM_EMOTIONS&quot; level=&quot;3&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_HYPNOTIC_PATTERN&quot; level=&quot;5&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_GREATER_INVISIBILITY&quot; level=&quot;7&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_MODIFY_MEMORY&quot; level=&quot;9&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Spell&quot; id=&quot;ID_PHB_SPELL_MASS_SUGGESTION&quot; level=&quot;11&quot; spellcasting=&quot;Sorcerer&quot; /&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Voice Of Power&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;Your connection to the fey has granted you a powerful, hypnotic voice. At 1st level, you gain proficiency in either Intimidation or Persuasion and the ability to speak, read and write Sylvan. You also learn the &lt;span class=&quot;italic&quot;&gt;command&lt;/span&gt;&lt;/p&gt; spell, which counts as a sorcerer spell for you, and does not count against your number of spells known.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p class=&quot;indent&quot;&gt;Additionally, whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;description&gt;Whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet display=&quot;false&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;You can speak, read, and write Sylvan and gain proficiency in in either Intimidation or Persuasion skill.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Language&quot; id=&quot;ID_LANGUAGE_SYLVAN&quot;/&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;grant type=&quot;Proficiency&quot; id=&quot;ID_PROFICIENCY_SKILL_INTIMIDATION&quot;/&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>//&lt;grant type=&quot;Proficiency&quot; id=&quot;ID_PROFICIENCY_SKILL_PERSUASION&quot;/&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/rules&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Enchanting Glamour&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/><text:tab/><text:tab/>&lt;p&gt;At 1st level, your link to the Feywild allows you to learn spells that weave enchantment and illusion. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose to learn an enchantment or illusion spell of your choice from the Bard or Wizard spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet display=&quot;false&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;Your link to the Feywild allows you to learn enchantment and illusion spells from the Bard or Wizard class.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;spellcasting name=&quot;Sorcerer&quot; extend=&quot;true&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;extend&gt;Bard&lt;/extend&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;extend&gt;Wizard&lt;/extend&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/spellcasting&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Beguiling Presence&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;At 6th level, you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p class=&quot;indent&quot;&gt;The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;description&gt;you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Flickering Form&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p class=&quot;indent&quot;&gt;You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet action=&quot;Bonus Action&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;description&gt;At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:s text:c="12"/>You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Unblemished Beauty&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;At 14th level, the magic you exude has innately changed your form, protecting it from the ravages of time. You can no longer be aged magically, and for every 10 years that pass, your body only ages 1 year.&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;element name=&quot;Master of Fantasies&quot; type=&quot;Archetype Feature&quot; source=&quot;First Flame: Fey Sorcerer&quot; id=&quot;ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES&quot;&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;p&gt;At 18th level, your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you. You gain the following benefits:&lt;/p&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:soft-page-break/><text:tab/><text:tab/><text:tab/>&lt;ul&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;li&gt;You are immune to being charmed or frightened.&lt;/li&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;li&gt;Any checks you make to discern the true nature of an illusion are made with advantage.&lt;/li&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;li&gt;When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.&lt;/li&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;/ul&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;description&gt;Your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you.&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/>&lt;li&gt;You are immune to being charmed or frightened.&lt;/li&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;li&gt;Any checks you make to discern the true nature of an illusion are made with advantage.&lt;/li&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/><text:tab/><text:tab/>&lt;li&gt;When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.&lt;/li&gt;&lt;/description&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/><text:tab/>&lt;/sheet&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text"><text:tab/>&lt;/element&gt;&#x0d;</text:p>
-   <text:p text:style-name="Preformatted_20_Text">&lt;/elements&gt;</text:p>
-  </office:text>
- </office:body>
-</office:document>
+	<element name="Fey Magic" type="Archetype" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEY_MAGIC">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight. The origin of your powers might be a union between an archfey and a beloved mortal or you might have received a boon for some deed or service. Perhaps you have a dryad in your ancestry, or you might be a scion of a powerful eladrin bloodline.
+			<p class="indent">Whatever the source, you have within you a knack for the beguiling magic that is the mark of one who may be destined to become an archfey themselves.</p>
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES" />
+		</description>
+		<sheet>
+			<description>Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE" level="6" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM" level="14" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY" level="14" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES" level="18" />
+		</rules>
+	</element>
+	
+	<element name="Fey Origin Spells" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FEY_ORIGIN_SPELLS">
+		<description>
+			<h5>FEY ORIGIN SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Sorcerer Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>command</em></td></tr>
+				<tr><td>1st</td><td><em>faerie fire</em></td></tr>
+				<tr><td>3rd</td><td><em>calm emotions</em></td></tr>
+				<tr><td>5th</td><td><em>hypnotic pattern</em></td></tr>
+				<tr><td>7th</td><td><em>greater invisibility</em></td></tr>
+				<tr><td>9th</td><td><em>modify memory</em></td></tr>
+				<tr><td>11th</td><td><em>mass suggestion</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="1" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_SUGGESTION" level="11" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+	
+	<element name="Voice Of Power" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_VOICE_OF_POWER">
+		<description>
+			<p>Your connection to the fey has granted you a powerful, hypnotic voice. At 1st level, you gain proficiency in either Intimidation or Persuasion and the ability to speak, read and write Sylvan. You also learn the <span class="italic">command</span></p> spell, which counts as a sorcerer spell for you, and does not count against your number of spells known.
+			<p class="indent">Additionally, whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.</description>
+		</sheet>
+		<sheet display="false">
+		<description>You can speak, read, and write Sylvan and gain proficiency in in either Intimidation or Persuasion skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION"/>
+			//<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+		</rules>
+	</element>
+	
+	<element name="Enchanting Glamour" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_ENCHANTING_GLAMOUR">
+		<description>
+			<p>At 1st level, your link to the Feywild allows you to learn spells that weave enchantment and illusion. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose to learn an enchantment or illusion spell of your choice from the Bard or Wizard spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</p>
+		</description>
+		<sheet display="false">
+		<description>Your link to the Feywild allows you to learn enchantment and illusion spells from the Bard or Wizard class.</description>
+		</sheet>
+		<spellcasting name="Sorcerer" extend="true">
+			<extend>Bard</extend>
+			<extend>Wizard</extend>
+		</spellcasting>
+	</element>
+	
+	<element name="Beguiling Presence" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_BEGUILING_PRESENCE">
+		<description>
+			<p>At 6th level, you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.
+			<p class="indent">The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.</p>
+		</description>
+		<sheet>
+			<description>you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.
+			The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.</description>
+		</sheet>
+	</element>
+	
+	<element name="Flickering Form" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_FLICKERING_FORM">
+		<description>
+			<p>At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.
+            You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	
+	<element name="Unblemished Beauty" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_UNBLEMISHED_BEAUTY">
+		<description>
+			<p>At 14th level, the magic you exude has innately changed your form, protecting it from the ravages of time. You can no longer be aged magically, and for every 10 years that pass, your body only ages 1 year.</p>
+		</description>
+	</element>
+	
+	<element name="Master of Fantasies" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_WILD_MASTER_OF_FANTASIES">
+		<description>
+			<p>At 18th level, your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you. You gain the following benefits:</p>
+			<ul>
+				<li>You are immune to being charmed or frightened.</li>
+				<li>Any checks you make to discern the true nature of an illusion are made with advantage.</li>
+				<li>When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you.
+			<li>You are immune to being charmed or frightened.</li>
+				<li>Any checks you make to discern the true nature of an illusion are made with advantage.</li>
+				<li>When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.</li></description>
+		</sheet>
+	</element>
+</elements>
