@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+
+	<element name="Fey Sorcerer" type="Archetype" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEY_SORCERER">
+		<supports>Sorcerous Origin</supports>
+		<description>
+			<p>Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight. The origin of your powers might be a union between an archfey and a beloved mortal or you might have received a boon for some deed or service. Perhaps you have a dryad in your ancestry, or you might be a scion of a powerful eladrin bloodline.</p>
+			<p class="indent">Whatever the source, you have within you a knack for the beguiling magic that is the mark of one who may be destined to become an archfey themselves.</p>
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FEY_ORIGIN_SPELLS" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_VOICE_OF_POWER" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_ENCHANTING_GLAMOUR" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_BEGUILING_PRESENCE" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FLICKERING_FORM" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_UNBLEMISHED_BEAUTY" />
+			<div element="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_MASTER_OF_FANTASIES" />
+		</description>
+		<sheet>
+			<description>Your innate magic comes from a connection to the Feywild, a vibrant plane of unearthly beings and eternal twilight.</description>
+		</sheet>
+		<rules>
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FEY_ORIGIN_SPELLS" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_VOICE_OF_POWER" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_ENCHANTING_GLAMOUR" level="1" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_BEGUILING_PRESENCE" level="6" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FLICKERING_FORM" level="14" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_UNBLEMISHED_BEAUTY" level="14" />
+			<grant type="Archetype Feature" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_MASTER_OF_FANTASIES" level="18" />
+		</rules>
+	</element>
+	
+	<element name="Fey Origin Spells" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FEY_ORIGIN_SPELLS">
+		<description>
+			<h5>FEY ORIGIN SPELLS</h5>
+			<table>
+				<thead>
+					<tr><td>Sorcerer Level</td><td>Spells</td></tr>
+				</thead>
+				<tr><td>1st</td><td><em>command</em></td></tr>
+				<tr><td>1st</td><td><em>faerie fire</em></td></tr>
+				<tr><td>3rd</td><td><em>calm emotions</em></td></tr>
+				<tr><td>5th</td><td><em>hypnotic pattern</em></td></tr>
+				<tr><td>7th</td><td><em>greater invisibility</em></td></tr>
+				<tr><td>9th</td><td><em>modify memory</em></td></tr>
+				<tr><td>11th</td><td><em>mass suggestion</em></td></tr>
+			</table>
+		</description>
+		<sheet display="false" />
+		<rules>
+			<grant type="Spell" id="ID_PHB_SPELL_COMMAND" level="1" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_FAERIE_FIRE" level="1" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_CALM_EMOTIONS" level="3" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_HYPNOTIC_PATTERN" level="5" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_GREATER_INVISIBILITY" level="7" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_MODIFY_MEMORY" level="9" spellcasting="Sorcerer" />
+			<grant type="Spell" id="ID_PHB_SPELL_MASS_SUGGESTION" level="11" spellcasting="Sorcerer" />
+		</rules>
+	</element>
+	
+	<element name="Voice Of Power" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_VOICE_OF_POWER">
+		<description>
+			<p>Your connection to the fey has granted you a powerful, hypnotic voice. At 1st level, you gain proficiency in either Intimidation or Persuasion and the ability to speak, read and write Sylvan. You also learn the <span class="italic">command</span> spell, which counts as a sorcerer spell for you, and does not count against your number of spells known.</p>
+			<p class="indent">Additionally, whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.</p>
+		</description>
+		<sheet>
+			<description>Whenever you make a Charisma check while interacting with Fey creature, your proficiency bonus is doubled if it applies to the check.</description>
+		</sheet>
+		<sheet display="false">
+		<description>You can speak, read, and write Sylvan and gain proficiency in in either Intimidation or Persuasion skill.</description>
+		</sheet>
+		<rules>
+			<grant type="Language" id="ID_LANGUAGE_SYLVAN"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+		</rules>
+	</element>
+	
+	<element name="Enchanting Glamour" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_ENCHANTING_GLAMOUR">
+		<description>
+			<p>At 1st level, your link to the Feywild allows you to learn spells that weave enchantment and illusion. When your Spellcasting feature lets you learn a sorcerer cantrip or a sorcerer spell of 1st level or higher, you can choose to learn an enchantment or illusion spell of your choice from the Bard or Wizard spell list, in addition to the sorcerer spell list. You must otherwise obey all the restrictions for selecting the spell, and it becomes a sorcerer spell for you.</p>
+		</description>
+		<sheet display="false">
+		<description>Your link to the Feywild allows you to learn enchantment and illusion spells from the Bard or Wizard class.</description>
+		</sheet>
+		<spellcasting name="Sorcerer" extend="true">
+			<extend>Bard</extend>
+			<extend>Wizard</extend>
+		</spellcasting>
+	</element>
+	
+	<element name="Beguiling Presence" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_BEGUILING_PRESENCE">
+		<description>
+			<p>At 6th level, you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.</p>
+			<p class="indent">The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.</p>
+		</description>
+		<sheet>
+			<description>you can project a powerful burst of fey magic to enchant or frighten your foes. You glamour yourself into an image of great attraction or fear to your targets. As an action, you can spend 2 sorcery points to cause creatures of your choice within a 30 feet of you to make a Wisdom saving throw against your sorcerer spell save DC.
+			The creatures that fail their saving throws are all charmed or frightened by you for 1 minute or until your concentration is broken (as if concentrating on a spell). A creature affected by this ability makes another Wisdom saving throw at the end of its turn. On a successful save, the effect ends for it.</description>
+		</sheet>
+	</element>
+	
+	<element name="Flickering Form" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_FLICKERING_FORM">
+		<description>
+			<p>At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.</p>
+			<p class="indent">You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.</p>
+		</description>
+		<sheet action="Bonus Action">
+			<description>At 14th level, you can briefly enter the Feywild to hide yourself. As a bonus action, you can teleport to a point within 90 feet that you can see and become invisible until the start of your next turn.
+            You can use this feature a number of times equal to your Charisma modifier and you regain all expended uses when you finish a long rest.</description>
+		</sheet>
+	</element>
+	
+	<element name="Unblemished Beauty" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_UNBLEMISHED_BEAUTY">
+		<description>
+			<p>At 14th level, the magic you exude has innately changed your form, protecting it from the ravages of time. You can no longer be aged magically, and for every 10 years that pass, your body only ages 1 year.</p>
+		</description>
+	</element>
+	
+	<element name="Master of Fantasies" type="Archetype Feature" source="First Flame: Fey Sorcerer" id="ID_FF_ARCHETYPE_FEATURE_FEY_SORCERER_MASTER_OF_FANTASIES">
+		<description>
+			<p>At 18th level, your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you. You gain the following benefits:</p>
+			<ul>
+				<li>You are immune to being charmed or frightened.</li>
+				<li>Any checks you make to discern the true nature of an illusion are made with advantage.</li>
+				<li>When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.</li>
+			</ul>
+		</description>
+		<sheet>
+			<description>Your innate understanding of enchantment and illusion has grown tremendously, as has your ability to resist attempts to beguile you.
+			<li>You are immune to being charmed or frightened.</li>
+				<li>Any checks you make to discern the true nature of an illusion are made with advantage.</li>
+				<li>When a creature makes a saving throw to end the effects of your enchantment spells, it does so with disadvantage.</li></description>
+		</sheet>
+	</element>
+</elements>
