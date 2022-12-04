@@ -74,8 +74,7 @@
 		</sheet>
 		<rules>
 			<grant type="Language" id="ID_LANGUAGE_SYLVAN"/>
-			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_INTIMIDATION"/>
-			//<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
+			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERSUASION"/>
 		</rules>
 	</element>
 	
